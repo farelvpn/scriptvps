@@ -14,7 +14,7 @@
  ``` 
  ***TAHAP 1*** 
  ``` 
-apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y install xxd && apt install -y bzip2 && apt install -y wget && apt install -y curl && apt install shc -y && apt install zstd -y && apt install bzip2 -y && apt install openssl -y && apt install gcc -y && apt install g++ -y && apt install lzma -y && reboot
+apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && apt -y install xxd && apt install -y bzip2 && apt install -y wget && apt install -y curl && apt install shc -y && apt install zstd -y && apt install bzip2 -y && apt install openssl -y && apt install gcc -y && apt install g++ -y && apt install lzma -y && apt install gnupg -y && apt install tmux -y && pkill tmux && tmux new -s fn
  ``` 
  ***TAHAP 2*** 
  ``` 
